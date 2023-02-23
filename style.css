@@ -1,0 +1,141 @@
+/* Styling for the body */
+body {
+  background-color: rgb(222, 231, 231);
+}
+
+/* Styling for the container */
+.container {
+  max-width: 900px;
+  margin: 0%;
+  padding: 300px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+.quiz-box {
+
+  width: 600px;
+  margin: 0 auto;
+  background-color:rgb(52, 88, 94);
+  height: 500px;
+  padding: 1rem 5rem 5rem 5rem;
+  border: solid 3px rgb(2, 2, 2);
+  border-radius: 5px;
+  text-align: center;
+}
+/* Styling for the h1 */
+.quiz-box h1 {
+  font-size: 3rem;
+  text-align: center;
+  background-color: rgb(234, 204, 166);
+  color: rgb(183, 110, 70) ;
+  padding: 1rem 0rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  border-radius: 100px;    
+}
+/* Styling for the header */
+.quiz-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.quiz-header #progress{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+/* Styling for the countdown */
+
+.quiz-header #countdown{
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 5px;
+  margin: 1px;
+  color: rgb(91, 50, 50);
+  background-color: rgb(219, 212, 205);
+  border-radius: 3px;
+}
+
+.quiz-box #question{
+  font-weight: 500;
+  display: flex;
+  border: 1px solid rgb(82, 89, 89);
+  background-color: rgb(234, 234, 223);
+  border-width: 1px 0;
+  padding: 10px 0;
+}
+
+.button {
+  margin: 1.5rem 0 4rem 0;
+}
+/* Styling for the button */
+.btn{
+  text-align: left;
+  width: 600px;
+  font-size: 1.3rem;
+  border: 0.5px solid;
+  border-radius: 5px;
+  background-color: rgb(220, 211, 199);
+  display: block;
+  cursor: pointer;
+  margin: 7px 0;
+  padding: 1rem;
+  outline: none;
+}
+.btn:hover{
+  background-color: rgb(179, 202, 202);
+}
+.btn:active{
+  background-color: rgb(54, 130, 134);
+}
+
+.btn.correct {
+
+  background-color:rgb(195, 206, 207);
+}
+
+.btn.wrong {
+  background-color: red;
+}
+
+/* Styling for the score id */
+#score {
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+.quiz-repeat {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.quiz-repeat a {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: rgb(173, 171, 171);
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 5px;
+  transition: all .3s;
+}
+
+.quiz-repeat a:hover{
+  background-color: rgb(109, 52, 52)
+}
+
+.form-inline {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: rgb(173, 171, 171);
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 5px;
+  transition: all .3s;
+  margin: 30px;
+  width: 180px;
+  display: inline-block;
+}
